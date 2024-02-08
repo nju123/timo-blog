@@ -20,6 +20,7 @@ module.exports = {
       options: {
       },
     },
+    "gatsby-transformer-sharp",
   ],
 
 }
