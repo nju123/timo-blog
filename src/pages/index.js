@@ -2,25 +2,48 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import Seo from "../components/seo"
-import { Button } from '@mui/material'
+import { Box, Button } from '@mui/material'
 import HomeCard from '../components/homecard'
+import { CenterFocusStrong } from '@mui/icons-material'
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-      <Button variant='contained'>Hello World!</Button>
-      <HomeCard color="black" headText="GitHub" buttonText="去逛逛" buttonLink="https://github.com/nju123"></HomeCard>
-      <StaticImage
-        alt="ocean"
-        src="https://images.unsplash.com/photo-1587502536575-6dfba0a6e017?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8c2VhfGVufDB8fDB8fHww"
-      />
-      <p></p>
-      <StaticImage
-      alt="A cut puppy"
-      src="../images/cutePuppy.jpg"
-      />
+    <Box>
+    <Layout pageTitle="Home Page"> 
     </Layout>
+
+    <Box sx={{
+      display:'flex',
+      flexWrap:'wrap',
+      // '& > Box':{
+      //   flex: '1 1 50%',
+      //   padding:'8px',
+      // }
+    }}>
+    
+
+    <Box sx={{
+      width:"30%",
+      height:"100%"
+    }}>
+      <h1>一剑曾当百万师</h1>
+    </Box>
+
+    <Box sx={{
+      display:'flex',
+      flexDirection:'Column',
+      alignItems:'center',
+      width:"70%",
+      height:"100%",
+      margin:'auto',
+    }}>
+      <HomeCard color="black" headText="GitHub" buttonText="去逛逛" buttonLink="https://github.com/nju123"></HomeCard>
+      <HomeCard color="#FF6699" headText="B站" buttonText="去逛逛" buttonLink="https://space.bilibili.com/457257865?spm_id_from=333.1007.0.0"></HomeCard>
+    </Box>
+
+    </Box>
+
+    </Box>
   )
 }
 

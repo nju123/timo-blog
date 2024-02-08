@@ -28,8 +28,8 @@ const HomeCard = ({ color, headText, buttonText, buttonLink }) => {
         <h1 style={{ color: "white" }}>{headText}</h1> {/* 使用style属性而不是sx */}
         <Box sx={{
             position:'absolute',//绝对定位
-            bottom:16,
-            right:16,
+            bottom:20,
+            right:20,
         }}>
              <Button variant='contained' href={buttonLink}>{buttonText}</Button>
         </Box>
