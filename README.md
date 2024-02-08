@@ -7,6 +7,8 @@
   Gatsby Minimal Starter
 </h1>
 
+# The Final Tutorial Project site : [Timo Blog](https://sensational-baklava-91958b.netlify.app/)
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
