@@ -9,21 +9,17 @@ import { CenterFocusStrong } from '@mui/icons-material'
 const IndexPage = () => {
   return (
     <Box>
-      <Layout pageTitle="Home Page">
-      </Layout>
+      
 
       <Box sx={{
         display: 'flex',
         flexWrap: 'wrap',
-        // '& > Box':{
-        //   flex: '1 1 50%',
-        //   padding:'8px',
-        // }
+        marginTop:"10%",
       }}>
 
 
         <Box sx={{
-          width: "30%",
+          width: "50%",
           height: "100%",
           alignItems: 'center',
           textAlign: "center"
@@ -44,13 +40,14 @@ const IndexPage = () => {
         <Box sx={{
           display: 'flex',
           flexDirection: 'Column',
-          alignItems: 'center',
-          width: "70%",
+          alignItems: 'left',
+          width: "50%",
           height: "100%",
           margin: 'auto',
         }}>
           <HomeCard color="black" headText="GitHub" buttonText="去逛逛" buttonLink="https://github.com/nju123"></HomeCard>
           <HomeCard color="#FF6699" headText="B站" buttonText="去逛逛" buttonLink="https://space.bilibili.com/457257865?spm_id_from=333.1007.0.0"></HomeCard>
+          <HomeCard color="#007FFF" headText="博客" buttonText="去逛逛" buttonLink="\blog"></HomeCard>
         </Box>
 
       </Box>
