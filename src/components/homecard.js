@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button'; // 注意这里的导入方式
 
-const HomeCard = ({ color, headText, buttonText, buttonLink }) => {
+const HomeCardSmall = ({ color, headText, buttonText, buttonLink }) => {
   return (
     <Box
       sx={{
@@ -11,8 +11,8 @@ const HomeCard = ({ color, headText, buttonText, buttonLink }) => {
         flexWrap: 'wrap',
         '& > :not(style)': {
           m: 1,
-          width: 328,
-          height: 158,
+          width: 160,
+          height: 160,
         },
       }}
     >
@@ -46,7 +46,7 @@ const HomeCardBig = ({ color, headText, buttonText, buttonLink,children }) => {
         flexWrap: 'wrap',
         '& > :not(style)': {
           m: 1,
-          width: 328,
+          width: 575,
           height: 158,
         },
       }}
@@ -74,4 +74,4 @@ const HomeCardBig = ({ color, headText, buttonText, buttonLink,children }) => {
   );
 }
 
-export {HomeCard,HomeCardBig};
+export {HomeCardSmall,HomeCardBig};
