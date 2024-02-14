@@ -2,6 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button'; // 注意这里的导入方式
+import { Link } from 'gatsby';
 
 const HomeCardSmall = ({ color, headText, buttonText, buttonLink }) => {
   return (
@@ -31,7 +32,7 @@ const HomeCardSmall = ({ color, headText, buttonText, buttonLink }) => {
             bottom:20,
             right:20,
         }}>
-             <Button variant='contained' href={buttonLink}>{buttonText}</Button>
+             <Button variant='contained' component={Link} to={buttonLink}>{buttonText}</Button>
         </Box>
       </Paper>
     </Box>
@@ -67,7 +68,7 @@ const HomeCardBig = ({ color, headText, buttonText, buttonLink,children }) => {
             bottom:20,
             right:20,
         }}>
-             <Button variant='contained' href={buttonLink}>{buttonText}</Button>
+             <Button variant='contained' component={Link} to={buttonLink}>{buttonText}</Button>
         </Box>
       </Paper>
     </Box>

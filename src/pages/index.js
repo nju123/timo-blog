@@ -47,14 +47,14 @@ const IndexPage = () => {
           width: "50%",
           height: "100%",
           margin: 'auto',
-          marginLeft:"50%", //因为左边的profile格子设置position为fixed，排版会乱，使用marginLeft来替代原来的效果
+          marginLeft:"50%", //因为左边的profile格子设置position为fixed，排版会乱，使用marginLeft来替代原来格子的填充
         }}>
           <HomeCardBig color="#ABD4F7" headText="Timo" buttonText="了解更多">
-            <h3 style={{color:"#262626"}}>改变现状的Loser</h3>
+            <h3 style={{color:"#262626"}}>Friends / Modern Faimly / Shameless</h3>
           </HomeCardBig>
           <HomeCardSmall color="black" headText="GitHub" buttonText="去逛逛" buttonLink="https://github.com/nju123"></HomeCardSmall>
           <HomeCardSmall color="#4D79C7" headText="B站" buttonText="去逛逛" buttonLink="https://space.bilibili.com/457257865?spm_id_from=333.1007.0.0"></HomeCardSmall>
-          <HomeCardSmall color="#8aa4e3" headText="博客" buttonText="去逛逛" buttonLink="\blog">
+          <HomeCardSmall color="#8aa4e3" headText="博客" buttonText="去逛逛" buttonLink="/blog">
             
           </HomeCardSmall>
         </Box>
