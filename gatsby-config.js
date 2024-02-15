@@ -12,7 +12,7 @@ module.exports = {
       resolve:"gatsby-source-filesystem",
       options:{
       name:"blog",
-      path:`${__dirname}/blog`,
+      path:`${__dirname}/content`,
       }
     },
     {
@@ -21,6 +21,14 @@ module.exports = {
       },
     },
     "gatsby-transformer-sharp",
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        footnotes: true,
+        gfm: true,
+        plugins: [],
+      },
+    },
   ],
 
 }

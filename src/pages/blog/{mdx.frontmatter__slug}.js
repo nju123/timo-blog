@@ -24,23 +24,23 @@ const BlogPost = ({data,children}) => {
   )
 }
 
-export const query = graphql`
-query($id: String){
-  mdx(id: {eq: $id}){
-    frontmatter{
-      title
-      date(formatString: "MMMM D, YYYY")
-      hero_image_credit_text
-      hero_image_credit_link
-      hero_image {
-        childImageSharp {
-          gatsbyImageData
-        }
-      }
-    }
-  }
-}
-`
+// export const query = graphql`
+// query($id: String){
+//   mdx(id: {eq: $id}){
+//     frontmatter{
+//       title
+//       date(formatString: "MMMM D, YYYY")
+//       hero_image_credit_text
+//       hero_image_credit_link
+//       hero_image {
+//         childImageSharp {
+//           gatsbyImageData
+//         }
+//       }
+//     }
+//   }
+// }
+// `
 
 export const Head = ({data}) => <Seo title={data.mdx.frontmatter.title} />
 export default BlogPost

@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "309e9efa56d0e676",
+    "type": "split",
+    "children": [
+      {
+        "id": "64a86cabb32ad69d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00846bb60aba8f06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024 Wishes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e26e36f984f0d51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Some Beautiful Pictures.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ec7f21777547080",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4f169876068d54c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd43a2fc343b28eb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8bad6359b7728cfa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b7c52e874fae46bd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "267d4c560829042d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a9d4f14e4cabae9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e12422f3408ceecc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Some Beautiful Pictures.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a09c7366989100b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Some Beautiful Pictures.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ebca31c2d4087c5f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b84857e6c8a82610",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Some Beautiful Pictures.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "4e26e36f984f0d51",
+  "lastOpenFiles": [
+    "2024 Wishes.md",
+    "Some Beautiful Pictures.md",
+    "Pictures/5601c02ef5552f4335eb2d4e7334a727.jpg",
+    "Pictures/v2-b55b9eb82170363437695c6c965e2304_r.jpg",
+    "Pictures/Pasted image 20240215145610.png",
+    "Pictures",
+    "new.md"
+  ]
+}

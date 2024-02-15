@@ -1,12 +1,18 @@
 import * as React from "react"
-import { AppBar, Button, Toolbar, Typography } from "@mui/material"
-import { Link } from "gatsby";
+import { AppBar, Button, Toolbar, Typography,Box } from "@mui/material"
+import { Link } from "gatsby"
 
+const ButtonStyle = {
+    fontSize: "20px",
+    fontWeight: "bold",
+    textTransform: "none", //移除按钮文本的大写转换
+}
 const BlogHeadBar = () =>{
     return (
     <AppBar position="fixed">
         <Toolbar>
-            <Typography variant="h6">
+            {/*flexGrow:1 表示该元素将占据所有剩余空间，从而将后面的Button推到右边*/}
+            <Typography variant="h6" sx={{flexGrow:1}}>
                 Timo's Blog
             </Typography>
             {/*这里需要解释一下
@@ -16,8 +22,15 @@ const BlogHeadBar = () =>{
             2.这样做的好处：
                 （1）性能优化:无刷新跳转【Gatsby为你做的】
                 （2）利于SEO:Search Engine Optimization, 提高搜索排名*/}
-            <Button color="inherit" component={Link} to="/blog">博客</Button>
-
+            <Box display="flex" justifyContent="flex-end"
+            sx={{
+                fontSize:"20px",
+                fontWeight:"bold"
+            }}>
+            <Button color="inherit" component={Link} to="/" sx={ButtonStyle}>主页</Button>
+            <Button color="inherit" component={Link} to="/about" sx={ButtonStyle}>关于</Button>
+            <Button color="inherit" component={Link} to="/blog/musings" sx={ButtonStyle}>随想</Button>
+            </Box>
         </Toolbar>
 
     </AppBar>

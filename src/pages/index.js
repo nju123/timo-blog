@@ -6,8 +6,9 @@ import { AppBar, Avatar, Box, Button } from '@mui/material'
 import {HomeCardSmall,HomeCardBig} from '../components/homecard'
 import { CenterFocusStrong } from '@mui/icons-material'
 import BlogHeadBar from '../components/blogHead'
+import { graphql } from 'gatsby'
 
-const IndexPage = () => {
+const IndexPage = ({data}) => {
   return (
     <Box>
       <BlogHeadBar></BlogHeadBar>
@@ -60,11 +61,27 @@ const IndexPage = () => {
         </Box>
 
       </Box>
-
+      
+      
+      
     </Box>
   )
 }
 
 export const Head = () => <Seo title="Home Page" />
+
+export const query = graphql`
+query {
+  allMarkdownRemark {
+    nodes {
+      html
+      id
+      frontmatter {
+        title
+      }
+    }
+  }
+}
+`
 
 export default IndexPage
