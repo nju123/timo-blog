@@ -11,12 +11,8 @@
             "id": "00846bb60aba8f06",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024 Wishes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -25,8 +21,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Some Beautiful Pictures.md",
-                "mode": "preview",
+                "file": "musings/GPT给Shameless写的诗歌.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Some Beautiful Pictures.md",
+                "file": "musings/GPT给Shameless写的诗歌.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Some Beautiful Pictures.md",
+                "file": "musings/GPT给Shameless写的诗歌.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Some Beautiful Pictures.md"
+                "file": "musings/GPT给Shameless写的诗歌.md"
               }
             }
           }
@@ -161,9 +157,11 @@
   },
   "active": "4e26e36f984f0d51",
   "lastOpenFiles": [
+    "musings/照片与代码显示测试.md",
+    "musings/GPT给Shameless写的诗歌.md",
+    "Pictures/5601c02ef5552f4335eb2d4e7334a727.jpg",
     "2024 Wishes.md",
     "Some Beautiful Pictures.md",
-    "Pictures/5601c02ef5552f4335eb2d4e7334a727.jpg",
     "Pictures/v2-b55b9eb82170363437695c6c965e2304_r.jpg",
     "Pictures/Pasted image 20240215145610.png",
     "Pictures",

@@ -70,18 +70,6 @@ const IndexPage = ({data}) => {
 
 export const Head = () => <Seo title="Home Page" />
 
-export const query = graphql`
-query {
-  allMarkdownRemark {
-    nodes {
-      html
-      id
-      frontmatter {
-        title
-      }
-    }
-  }
-}
-`
+
 
 export default IndexPage
